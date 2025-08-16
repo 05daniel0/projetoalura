@@ -1,0 +1,85 @@
+body {
+    color: white;
+   background: rgb(10, 10, 10);
+    margin: 0px;
+    font-family: 'Outfit', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: rgba(17, 17, 17, 0.075);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: solid 2px rgb(42, 122, 228);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(42, 122, 228);
+}
+
+.hero-section {
+    padding-bottom: 80px;
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.filmes-section {
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.chamada-texto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 560px;
+    gap: 16px;
+}
+
+.categoria-videos {
+    overflow: hidden;
+    display: flex;
+    padding-left: 24px;
+    padding-right: 24px;
+    overflow-x: auto;
+    gap: 8px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    width: 300px;
+    border: solid 0.5px rgba(42, 123, 228, 0);
+}
+
+.categoria-videos img:hover {
+    opacity: 1;
+    width: 300px;
+    border: solid 0.5px rgb(42, 122, 228);
+}
+
+h1 {
+    margin: 0px;
+    font-size: 40px;
+    height:fit-content;
+    text-align: center;
+}
+
+p {
+    margin: 0px;
+    padding-bottom: 8px;
+    font-size:20px;
+    font-weight: 200;
+    height:fit-content;
+}
+
